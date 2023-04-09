@@ -9,10 +9,10 @@ main > article:nth-child(1) > form > input[type=submit] { background-color: #663
 main > article:nth-child(1) > form > input[type=submit]:hover { background-color: #404EEE; letter-spacing: 10px; }
 main > article:nth-child(1) > form > input[type=text] { padding: 0 0 0 10px; font-size: 15px; background-color: #eee; -webkit-transition: all .3s; transition: all .3s; -webkit-transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); }
 main > article:nth-child(1) > form > input[type=text]:focus { -webkit-box-shadow: 0 0 10px #00000016; box-shadow: 0 0 10px #00000016; -webkit-transform: scale(1.01); transform: scale(1.01); }
-main > article:nth-child(1) > form > input[type=text]::-webkit-input-placeholder { color: #ddd; }
-main > article:nth-child(1) > form > input[type=text]:-ms-input-placeholder { color: #ddd; }
-main > article:nth-child(1) > form > input[type=text]::-ms-input-placeholder { color: #ddd; }
-main > article:nth-child(1) > form > input[type=text]::placeholder { color: #ddd; }
+main > article:nth-child(1) > form > input[type=text]::-webkit-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input[type=text]:-ms-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input[type=text]::-ms-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input[type=text]::placeholder { color: #ccc; }
 main > article:nth-child(2) { border-radius: 0 50px 50px 0; width: 40%; background-color: #ddd; }
 
 /*# sourceMappingURL=sign_up.css.map */
