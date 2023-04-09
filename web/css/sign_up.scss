@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    min-width: 500px;
+
+    
+    max-width: 700px;
+    margin: 100px;
+    flex-grow: 1;
+    border-radius: 50px;
+    
+    > article{
+        $percent: 60%;
+        &:nth-child(1){
+            border-radius: 50px 0 0 50px;
+            background-color: #fff;
+            width: $percent;
+            padding: 50px 50px 50px 50px;
+            > form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                > input{
+                    border: none;
+                    outline: none;
+                    height: 40px;
+                    &[type=submit]{
+                        background-color: #404EEE;
+                        color: #fff;
+                        margin-top: 100px;
+                    }
+                    &[type=text]{
+                        background-color: #ddd;
+                        &::placeholder{
+                            color: #eee;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        &:nth-child(2){
+            border-radius: 0 50px 50px 0;
+            width: 100 - $percent;
+            background-color: #ccc;
+
+        }
+    }
+}

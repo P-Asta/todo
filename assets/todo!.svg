@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ddd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: AdobeGothicStd-Bold-KSCpc-EUC-H, 'Adobe Gothic Std';
+        font-size: 154.94px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" x="-314.88" y="-297.75" width="1636.97" height="1662.44" transform="translate(-216.46 393.04) rotate(-35.61)"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-1" x="-1243" y="-1323" width="3832" height="3544"/>
+  <g class="cls-3">
+    <g>
+      <text class="cls-2" transform="translate(1014.31 -303.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(835.05 -175.21) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(1095.99 189.09) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(655.78 -46.8) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(916.73 317.5) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(215.57 -282.68) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(476.52 81.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(737.46 445.9) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(998.41 810.2) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(36.31 -154.28) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(297.26 210.02) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(558.2 574.31) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(819.15 938.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(-142.95 -25.87) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(117.99 338.43) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(378.94 702.72) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(639.88 1067.01) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(-322.22 102.54) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(-61.27 466.83) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(199.67 831.13) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(-240.54 595.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(20.41 959.54) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-2" transform="translate(-158.86 1087.94) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+    </g>
+  </g>
+</svg>
