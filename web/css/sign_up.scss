@@ -7,6 +7,8 @@ body{
 }
 
 main{
+    $border: 50px;
+
     display: flex;
     min-width: 500px;
 
@@ -14,15 +16,22 @@ main{
     max-width: 700px;
     margin: 100px;
     flex-grow: 1;
-    border-radius: 50px;
+    border-radius: $border;
+    box-shadow: 0 0 10px #00000015;
     
     > article{
         $percent: 60%;
         &:nth-child(1){
-            border-radius: 50px 0 0 50px;
+            border-radius: $border 0 0 $border;
             background-color: #fff;
             width: $percent;
             padding: 50px 50px 50px 50px;
+
+            > h1{
+                margin-bottom: 30px;
+                font-weight: 900;
+            }
+
             > form{
                 display: flex;
                 flex-direction: column;
@@ -32,14 +41,31 @@ main{
                     outline: none;
                     height: 40px;
                     &[type=submit]{
-                        background-color: #404EEE;
+                        background-color: #6633ff;
                         color: #fff;
-                        margin-top: 100px;
+                        margin-top: 20px;
+                        cursor: pointer;
+                        transition: all .4s;
+                        letter-spacing: 2px;
+                        font-size: 15px;
+                        &:hover{
+                            background-color: #404EEE;
+                            letter-spacing: 10px;
+                        }
                     }
+                    border-radius: 10px;
                     &[type=text]{
-                        background-color: #ddd;
+                        padding: 0 0 0 10px;
+                        font-size: 15px;
+                        background-color: #eee;
+                        transition: all .3s;
+                        transition-timing-function:  cubic-bezier(0, -0.14, 0, 2.16);
+                        &:focus{
+                            box-shadow: 0 0 10px #00000016;
+                            transform: scale(1.01);
+                        }
                         &::placeholder{
-                            color: #eee;
+                            color: #ddd;
                         }
                     }
                     
@@ -47,10 +73,9 @@ main{
             }
         }
         &:nth-child(2){
-            border-radius: 0 50px 50px 0;
+            border-radius: 0 $border $border 0;
             width: 100 - $percent;
-            background-color: #ccc;
-
+            background-color: #ddd;
         }
     }
 }

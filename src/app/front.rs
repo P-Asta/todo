@@ -16,7 +16,7 @@ pub async fn todo_app(Path(name): Path<String>) -> Html<String>{
 }
 
 pub async fn sign_up() -> Html<String>{
-    let app = get_web("sign_up");
+    let app = get_web("sign_up").replace("{{error}}", "0");
 
     Html(
         app

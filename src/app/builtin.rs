@@ -11,5 +11,10 @@ pub fn get_web(name: &str) -> String{
         fs::read_to_string(format!("web/all/all.js")).unwrap_or(String::new())
     );
 
-    format!("{html}<style>{css}\n\n{all_css}</style><script>{js}\n\n{all_js}</script>")
+    format!("{html}<style>{all_css}\n\n{css}</style><script>{js}\n\n{all_js}</script>")
 }
+
+
+
+
+
