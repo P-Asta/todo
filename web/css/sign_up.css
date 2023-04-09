@@ -13,6 +13,6 @@ main > article:nth-child(1) > form > input[type=text]::-webkit-input-placeholder
 main > article:nth-child(1) > form > input[type=text]:-ms-input-placeholder { color: #ccc; }
 main > article:nth-child(1) > form > input[type=text]::-ms-input-placeholder { color: #ccc; }
 main > article:nth-child(1) > form > input[type=text]::placeholder { color: #ccc; }
-main > article:nth-child(2) { border-radius: 0 50px 50px 0; width: 40%; background-color: #ddd; }
+main > article:nth-child(2) { border-radius: 0 50px 50px 0; width: 40%; background-image: url("https://raw.githubusercontent.com/5-23/todo/0219393aafc4552a3583b52e90a56e8d1a262c96/assets/todo!.svg"); background-size: 190%; background-color: #ddd; }
 
 /*# sourceMappingURL=sign_up.css.map */

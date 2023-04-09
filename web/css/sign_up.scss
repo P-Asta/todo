@@ -75,6 +75,8 @@ main{
         &:nth-child(2){
             border-radius: 0 $border $border 0;
             width: 100 - $percent;
+            background-image: url("https://raw.githubusercontent.com/5-23/todo/0219393aafc4552a3583b52e90a56e8d1a262c96/assets/todo!.svg");
+            background-size: 190%;
             background-color: #ddd;
         }
     }
