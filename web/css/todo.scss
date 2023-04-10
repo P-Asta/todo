@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+my-post{
+    min-width: 200px;
+    min-height: 200px;
+
+    max-width: 400px;
+}
+article{
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+    color: var(--fc);
+    > img{
+        position: absolute;
+        width: 200px;
+        z-index: 0;
+    }
+    > h1{
+        position: relative;
+        z-index: 10;
+        padding-top: 6px;
+        // padding-bottom: 10px;
+        text-indent:  50px;
+    }
+    > section{
+        position: relative;
+        z-index: 10;
+        color: var(--fc);
+        opacity: .8;
+        padding: 8px 10px 10px 10px;
+    }
+}
