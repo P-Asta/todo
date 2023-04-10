@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #36f;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #404eee;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Pretendard-SemiBold-KSCpc-EUC-H, Pretendard;
+        font-size: 221.47px;
+        font-weight: 600;
+      }
+
+      .cls-5 {
+        letter-spacing: -.08em;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-1" points="1039.45 249.27 417.95 60 373.87 204.73 229.14 160.66 39.87 782.16 804.74 1020 1039.45 249.27"/>
+    <polygon class="cls-3" points="229.14 160.66 417.95 60 373.87 204.73 229.14 160.66"/>
+  </g>
+  <text class="cls-4" transform="translate(228.78 461.36) rotate(27.29)"><tspan class="cls-5" x="0" y="0">T</tspan><tspan class="cls-2" x="122.84" y="0">oDo!</tspan></text>
+</svg>
