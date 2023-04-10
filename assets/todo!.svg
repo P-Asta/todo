@@ -3,54 +3,108 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #ddd;
-      }
-
-      .cls-2 {
-        fill: #fff;
-        font-family: AdobeGothicStd-Bold-KSCpc-EUC-H, 'Adobe Gothic Std';
-        font-size: 154.94px;
-        font-weight: 700;
-      }
-
-      .cls-3 {
         clip-path: url(#clippath);
       }
 
-      .cls-4 {
+      .cls-2 {
         fill: none;
+      }
+
+      .cls-3 {
+        fill: #36f;
+        font-family: AdobeGothicStd-Bold-KSCpc-EUC-H, 'Adobe Gothic Std';
+        font-size: 68.62px;
+        font-weight: 700;
       }
     </style>
     <clipPath id="clippath">
-      <rect class="cls-4" x="-314.88" y="-297.75" width="1636.97" height="1662.44" transform="translate(-216.46 393.04) rotate(-35.61)"/>
+      <rect class="cls-2" x="-236.96" y="-216.21" width="1571.04" height="1573.51" transform="translate(-229.64 426.15) rotate(-35.61)"/>
     </clipPath>
   </defs>
-  <rect class="cls-1" x="-1243" y="-1323" width="3832" height="3544"/>
-  <g class="cls-3">
+  <g class="cls-1">
     <g>
-      <text class="cls-2" transform="translate(1014.31 -303.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(835.05 -175.21) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(1095.99 189.09) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(655.78 -46.8) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(916.73 317.5) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(215.57 -282.68) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(476.52 81.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(737.46 445.9) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(998.41 810.2) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(36.31 -154.28) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(297.26 210.02) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(558.2 574.31) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(819.15 938.61) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(-142.95 -25.87) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(117.99 338.43) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(378.94 702.72) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(639.88 1067.01) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(-322.22 102.54) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(-61.27 466.83) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(199.67 831.13) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(-240.54 595.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(20.41 959.54) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
-      <text class="cls-2" transform="translate(-158.86 1087.94) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1026.58 -7.32) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(831.63 -111.78) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(947.19 49.55) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1062.76 210.89) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(752.24 -54.91) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(867.8 106.42) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(983.37 267.76) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(672.84 1.95) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(788.41 163.29) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(903.97 324.62) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1019.54 485.96) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(477.89 -102.51) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(593.45 58.82) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(709.02 220.16) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(824.58 381.49) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(940.15 542.83) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1055.71 704.16) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(398.49 -45.64) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(514.06 115.69) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(629.62 277.03) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(745.19 438.36) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(860.75 599.7) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(976.32 761.03) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1091.89 922.37) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(203.54 -150.11) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(319.1 11.22) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(434.67 172.56) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(550.23 333.9) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(665.8 495.23) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(781.36 656.57) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(896.93 817.9) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1012.49 979.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(124.15 -93.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(239.71 68.09) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(355.28 229.43) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(470.84 390.76) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(586.41 552.1) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(701.97 713.43) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(817.54 874.77) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(933.1 1036.11) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(44.75 -36.37) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(160.32 124.96) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(275.88 286.3) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(391.45 447.63) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(507.01 608.97) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(622.58 770.3) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(738.14 931.64) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(853.71 1092.97) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-150.2 -140.84) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-34.64 20.5) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(80.93 181.83) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(196.49 343.17) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(312.06 504.5) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(427.62 665.84) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(543.19 827.17) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(658.75 988.51) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-114.03 77.36) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(1.53 238.7) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(117.1 400.03) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(232.67 561.37) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(348.23 722.71) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(463.8 884.04) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(579.36 1045.38) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-77.86 295.57) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(37.71 456.9) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(153.27 618.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(268.84 779.57) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(384.4 940.91) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(499.97 1102.24) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-41.68 513.77) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(73.88 675.11) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(189.45 836.44) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(305.01 997.78) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-121.08 570.64) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-5.51 731.98) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(110.05 893.31) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(225.62 1054.65) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-84.9 788.84) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(30.66 950.18) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(146.23 1111.52) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-48.73 1007.05) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
+      <text class="cls-3" transform="translate(-128.12 1063.92) rotate(54.39)"><tspan x="0" y="0">Todo!</tspan></text>
     </g>
   </g>
 </svg>
