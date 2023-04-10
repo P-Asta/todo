@@ -10,7 +10,7 @@ class Post extends HTMLElement {
             bc: background color
         */
         this.innerHTML = `
-            <article style="${ok? '--bc: #afa; --fc: #fff': '--bg: #fff; --fc: #bbb'}">
+            <article style="${ok? '--bc: #faffbf; --fc: #000': '--bg: #fff; --fc: #bbb'}">
                 <h1>${title}</h1>
                 <hr/>
                 <section>${discription}</section>
