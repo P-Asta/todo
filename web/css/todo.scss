@@ -21,7 +21,6 @@ my-post{
 article{
     width: 200px;
     height: 200px;
-    word-wrap: break-word;
     color: var(--fc);
     > img{
         position: absolute;
@@ -29,17 +28,19 @@ article{
         z-index: 0;
     }
     > h1{
+        font-size: medium;
         position: relative;
         z-index: 10;
-        padding-top: 6px;
+        padding-top: 10px;
         // padding-bottom: 10px;
-        text-indent:  50px;
+        text-indent:  45px;
     }
     > section{
         position: relative;
         z-index: 10;
         color: var(--fc);
         opacity: .8;
-        padding: 8px 10px 10px 10px;
+        word-wrap: break-word;
+        padding: 10px;
     }
 }

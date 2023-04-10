@@ -21,12 +21,11 @@ main{
     
     > article{
         $percent: 60%;
-        
         &:nth-child(1){
             border-radius: $border 0 0 $border;
             background-color: #fff;
             width: $percent;
-            padding: 50px 0 50px 50px;
+            padding: 50px 50px 50px 50px;
 
             > h1{
                 margin-bottom: 30px;
@@ -74,24 +73,12 @@ main{
             }
         }
         &:nth-child(2){
-            background-color: #fff;
+            background-color: #fefefe;
             border-radius: 0 $border $border 0;
             width: 100 - $percent;
-            padding: 20px;
-            > img{
-                animation-name: logo-in;
-                animation-duration: 1s;
-            }
+            border-left: solid 1px #dddddd39;
+            background-image: url("https://raw.githubusercontent.com/5-23/todo/6d38fead0581908323361d1582c5694cf0c05e85/assets/todo!.svg");
+            background-size: 190%;
         }
-    }
-}
-
-@keyframes logo-in {
-    0%{
-        transform: scale(0) rotate(90deg);
-    }
-    
-    100%{
-        transform: scale(1) rotate(0deg);
     }
 }
