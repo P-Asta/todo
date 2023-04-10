@@ -16,5 +16,5 @@ pub async fn sign_up(extract::Form(q): extract::Form<SignUp>) -> Html<String>{
     if q.pw != q.rpw{
         return Html(get_web("sign_up").replace("{{param}}", &format!("?n={}&p={}&r={}", q.name, q.pw, q.rpw)).replace("{{error}}", "1"))
     }
-    Html(format!("{q:?}").replace("{{param}}", &format!("?n={}&p={}&r={}", q.name, q.pw, q.rpw)).replace("{{error}}", "0"))
+    Html(get_web("sign_up").replace("{{param}}", &format!("?n={}&p={}&r={}", q.name, q.pw, q.rpw)).replace("{{error}}", "0"))
 }

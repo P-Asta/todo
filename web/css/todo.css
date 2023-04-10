@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+my-post{
+    flex-grow: 1;
+    
+    min-width: 200px;
+    min-height: 200px;
+
+    max-width: 400px;
+}
+article{
+    min-width: 200px;
+    min-height: 200px;
+
+    padding: 10px;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 20px;
+    word-wrap: break-word;
+    color: var(--fc);
+    background-color: var(--bc);
+}
+
+article > section{
+    color: var(--fc);
+    opacity: .8;
+}
+
+hr{
+    border: solid 1px #ddd;
+    margin: 10px 0;
+}
