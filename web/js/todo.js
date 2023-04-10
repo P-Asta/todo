@@ -16,10 +16,12 @@ class Post extends HTMLElement {
         //         <section>${discription}</section>
         //     </article>
         // `
+        let postOK = "https://raw.githubusercontent.com/5-23/todo/7d3ccc5c3ed9f55689192980dfd2f6364bd10d3b/assets/post.svg"
+        let post = "https://raw.githubusercontent.com/5-23/todo/7d3ccc5c3ed9f55689192980dfd2f6364bd10d3b/assets/post.svg"
 
         this.innerHTML = `
-            <article style="${ok? '--fc: #000': '--fc: #000'}">
-                <img src="${ok?'https://raw.githubusercontent.com/5-23/todo/d8c5d94ed9656877ef38232bd320cd1eeaf5b4d0/assets/post_ok.svg': 'https://raw.githubusercontent.com/5-23/todo/d8c5d94ed9656877ef38232bd320cd1eeaf5b4d0/assets/post.svg'}"></img>
+            <article style="${ok? '--fc: #fff': '--fc: #fff'}">
+                <img src="${ok? postOK: post}"></img>
                 <h1>${title}</h1>
                 <section>${discription}</section>
             </article>
