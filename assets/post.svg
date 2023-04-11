@@ -3,14 +3,14 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #36f;
+        fill: #fff498;
       }
 
       .cls-2 {
-        fill: #404eee;
+        fill: #e8de64;
       }
     </style>
   </defs>
-  <polygon class="cls-2" points="0 204 204 0 204 204 0 204"/>
   <polygon class="cls-1" points="1080 0 204 0 204 204 0 204 0 1080 1080 1086.33 1080 0"/>
+  <polygon class="cls-2" points="0 204 204 0 204 204 0 204"/>
 </svg>
