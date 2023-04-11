@@ -2,10 +2,11 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-al
 
 main { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 50px; }
 
-my-post { min-width: 200px; min-height: 200px; max-width: 400px; }
+my-post { min-width: 200px; min-height: 200px; max-width: 400px; -webkit-transition: all .5s; transition: all .5s; }
+my-post:hover { -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5); transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5); -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
 
 article { width: 200px; height: 200px; color: var(--fc); }
-article > img { position: absolute; width: 200px; z-index: 0; }
+article > img { position: absolute; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; width: 200px; z-index: 0; }
 article > h1 { font-size: medium; position: relative; z-index: 10; padding-top: 10px; text-indent: 45px; }
 article > section { position: relative; z-index: 10; color: var(--fc); opacity: .8; word-wrap: break-word; padding: 10px; }
 

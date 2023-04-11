@@ -4,7 +4,7 @@ body{
     justify-content: center;
     margin: 50px;
     background-image: url("https://raw.githubusercontent.com/5-23/todo/4fdf9b6b26418e09d52a129dcd1cf9862a9edd4d/assets/todo_bg.svg");
-    background-size: 20px;    
+    background-size: 20px;  
 }
 main{
     display: flex;
@@ -17,6 +17,11 @@ my-post{
     min-height: 200px;
 
     max-width: 400px;
+    transition: all .5s;
+    &:hover{
+        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5);
+        transform: scale(1.1) rotate(3deg);
+    }
 }
 
 article{
@@ -25,6 +30,7 @@ article{
     color: var(--fc);
     > img{
         position: absolute;
+        user-select: none;
         width: 200px;
         z-index: 0;
     }
@@ -33,7 +39,6 @@ article{
         position: relative;
         z-index: 10;
         padding-top: 10px;
-        // padding-bottom: 10px;
         text-indent:  45px;
     }
     > section{

@@ -16,7 +16,7 @@ class Post extends HTMLElement {
         //         <section>${discription}</section>
         //     </article>
         // `
-        let postOK = "https://raw.githubusercontent.com/5-23/todo/4b927ee36d7be3f1fe7c6660f45c12956dc8b897/assets/post_ok.svg"
+        let postOK = "https://raw.githubusercontent.com/5-23/todo/9656189adb11d390fa2729697a98b7010e272e0b/assets/post_ok.svg"
         let post = "https://raw.githubusercontent.com/5-23/todo/9786f94188119d1c68deb5bebeb41577ac9d1a43/assets/post.svg"
 
         this.innerHTML = `
