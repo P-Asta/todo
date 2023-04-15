@@ -54,7 +54,7 @@ main{
                         }
                     }
                     border-radius: 10px;
-                    &[type=text]{
+                    &[type=text], &[type=password] {
                         padding: 0 0 0 10px;
                         font-size: 15px;
                         background-color: #eee;
