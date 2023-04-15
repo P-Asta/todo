@@ -4,15 +4,14 @@ main { display: -webkit-box; display: -ms-flexbox; display: flex; min-width: 500
 main > article:nth-child(1) { border-radius: 50px 0 0 50px; background-color: #fff; width: 60%; padding: 50px 50px 50px 50px; }
 main > article:nth-child(1) > h1 { margin-bottom: 30px; font-weight: 900; }
 main > article:nth-child(1) > form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 20px; }
-main > article:nth-child(1) > form > input { border: none; outline: none; height: 40px; border-radius: 10px; }
-main > article:nth-child(1) > form > input[type=submit] { background-color: #6633ff; color: #fff; margin-top: 20px; cursor: pointer; -webkit-transition: all .4s; transition: all .4s; letter-spacing: 2px; font-size: 15px; }
+main > article:nth-child(1) > form > input { border: none; outline: none; height: 40px; border-radius: 10px; padding: 0 0 0 10px; font-size: 15px; background-color: #eee; -webkit-transition: all .3s; transition: all .3s; -webkit-transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); }
+main > article:nth-child(1) > form > input:focus { -webkit-box-shadow: 0 0 10px #00000016; box-shadow: 0 0 10px #00000016; -webkit-transform: scale(1.01); transform: scale(1.01); }
+main > article:nth-child(1) > form > input::-webkit-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input:-ms-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input::-ms-input-placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input::placeholder { color: #ccc; }
+main > article:nth-child(1) > form > input[type=submit] { padding: 0; background-color: #6633ff; color: #fff; margin-top: 20px; cursor: pointer; -webkit-transition: all .4s; transition: all .4s; letter-spacing: 2px; font-size: 15px; }
 main > article:nth-child(1) > form > input[type=submit]:hover { background-color: #404EEE; letter-spacing: 10px; }
-main > article:nth-child(1) > form > input[type=text] { padding: 0 0 0 10px; font-size: 15px; background-color: #eee; -webkit-transition: all .3s; transition: all .3s; -webkit-transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); }
-main > article:nth-child(1) > form > input[type=text]:focus { -webkit-box-shadow: 0 0 10px #00000016; box-shadow: 0 0 10px #00000016; -webkit-transform: scale(1.01); transform: scale(1.01); }
-main > article:nth-child(1) > form > input[type=text]::-webkit-input-placeholder { color: #ccc; }
-main > article:nth-child(1) > form > input[type=text]:-ms-input-placeholder { color: #ccc; }
-main > article:nth-child(1) > form > input[type=text]::-ms-input-placeholder { color: #ccc; }
-main > article:nth-child(1) > form > input[type=text]::placeholder { color: #ccc; }
-main > article:nth-child(2) { background-color: #fefefe; border-radius: 0 50px 50px 0; width: 40%; border-left: solid 1px #dddddd39; background-image: url("https://raw.githubusercontent.com/5-23/todo/6d38fead0581908323361d1582c5694cf0c05e85/assets/todo!.svg"); background-size: 190%; }
+main > article:nth-child(2) { background-color: #fefefe; border-radius: 0 50px 50px 0; width: 40%; border-left: solid 1px #dddddd39; background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg"); background-size: 20px; }
 
 /*# sourceMappingURL=sign_up.css.map */

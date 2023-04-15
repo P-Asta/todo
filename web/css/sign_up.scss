@@ -40,7 +40,23 @@ main{
                     border: none;
                     outline: none;
                     height: 40px;
+                    
+                    border-radius: 10px;
+                    padding: 0 0 0 10px;
+                    font-size: 15px;
+                    background-color: #eee;
+                    transition: all .3s;
+                    transition-timing-function:  cubic-bezier(0, -0.14, 0, 2.16);
+                    &:focus{
+                        box-shadow: 0 0 10px #00000016;
+                        transform: scale(1.01);
+                    }
+                    &::placeholder{
+                        color: #ccc;
+                    }
+
                     &[type=submit]{
+                        padding: 0;
                         background-color: #6633ff;
                         color: #fff;
                         margin-top: 20px;
@@ -53,21 +69,7 @@ main{
                             letter-spacing: 10px;
                         }
                     }
-                    border-radius: 10px;
-                    &[type=text], &[type=password] {
-                        padding: 0 0 0 10px;
-                        font-size: 15px;
-                        background-color: #eee;
-                        transition: all .3s;
-                        transition-timing-function:  cubic-bezier(0, -0.14, 0, 2.16);
-                        &:focus{
-                            box-shadow: 0 0 10px #00000016;
-                            transform: scale(1.01);
-                        }
-                        &::placeholder{
-                            color: #ccc;
-                        }
-                    }
+                    
                     
                 }
             }
@@ -77,8 +79,8 @@ main{
             border-radius: 0 $border $border 0;
             width: 100 - $percent;
             border-left: solid 1px #dddddd39;
-            background-image: url("https://raw.githubusercontent.com/5-23/todo/6d38fead0581908323361d1582c5694cf0c05e85/assets/todo!.svg");
-            background-size: 190%;
+            background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg");
+            background-size: 20px;
         }
     }
 }

@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 50px;
-    background-image: url("https://raw.githubusercontent.com/5-23/todo/4fdf9b6b26418e09d52a129dcd1cf9862a9edd4d/assets/todo_bg.svg");
+    background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg");
     background-size: 20px;  
 }
 main{
@@ -25,6 +25,8 @@ my-post{
 }
 
 article{
+    animation-name: intro;
+    animation-duration: var(--t);
     width: 200px;
     height: 200px;
     color: var(--fc);
@@ -48,5 +50,17 @@ article{
         opacity: .8;
         word-wrap: break-word;
         padding: 10px;
+    }
+}
+
+
+@keyframes intro {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
     }
 }
