@@ -4,6 +4,7 @@ use app::*;
 
 #[tokio::main]
 async fn main() {
+    builtin::Db::new();
     let api = Router::new()
         .route("/assets/*name", get(api::asset))
         .route("/assets/*name", post(api::asset))

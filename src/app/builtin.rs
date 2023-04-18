@@ -1,5 +1,7 @@
-use axum::response::Html;
 use std::fs;
+
+use redis::Commands;
+
 pub fn get_web(name: &str) -> String{
     let (html, css, js, all_css, all_js):
         (String, String, String, String, String) = (
@@ -15,6 +17,23 @@ pub fn get_web(name: &str) -> String{
 }
 
 
+pub struct Db{
+    cli: redis::Client
+}
+// github: https://github.com/redis-rs/redis-rs
+impl Db {
+    pub async fn new() -> Self{
+        let path = "redis://:asdf@svc.sel3.cloudtype.app:31672";
 
 
+        let cli = redis::Client::open(path).unwrap();
+        
+        
+        let mut connection = cli.get_connection().unwrap();
+        // connection.set::<&str, &str, ()>("test", "test_data").unwrap();
+        let rv: String = connection.get("test").unwrap();
+        println!("{rv:?}");
+        Self{ cli }
+    }
+}
 
