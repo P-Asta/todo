@@ -1,8 +1,9 @@
-body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 50px; background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg"); background-size: 20px; }
+body { margin: 50px; background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg"); background-size: 20px; }
 
-main { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 50px; }
+main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 50px; }
 
-div#push { position: absolute; bottom: 0; right: 0; width: 50px; height: 50px; margin: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 40px; font-weight: 900; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #63ef27; color: #fff; border-radius: 100%; }
+#push { position: absolute; bottom: 0; right: 0; width: 50px; height: 50px; margin: 30px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 40px; font-weight: 900; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #51bc23; color: #fff; border-radius: 100%; -webkit-box-shadow: 0 0 10px #ddd; box-shadow: 0 0 10px #ddd; -webkit-transition: all .5s; transition: all .5s; cursor: pointer; -webkit-transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); transition-timing-function: cubic-bezier(0, -0.14, 0, 2.16); }
+#push:hover { -webkit-box-shadow: 0 0 15px #ddd; box-shadow: 0 0 15px #ddd; -webkit-transform: scale(1.1) rotate(90deg); transform: scale(1.1) rotate(90deg); -webkit-filter: brightness(1.1); filter: brightness(1.1); }
 
 my-post { min-width: 200px; min-height: 200px; max-width: 400px; -webkit-transition: all .5s; transition: all .5s; }
 my-post:hover { -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5); transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5); -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }

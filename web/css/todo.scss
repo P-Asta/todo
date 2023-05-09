@@ -1,18 +1,18 @@
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 50px;
     background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg");
     background-size: 20px;
 }
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-div#push{
+#push{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -24,9 +24,19 @@ div#push{
     font-size: 40px;
     font-weight: 900;
     justify-content: center;
-    background-color: #63ef27;
+    background-color: #51bc23;
     color: #fff;
     border-radius: 100%;
+
+    box-shadow: 0 0 10px #ddd;
+    transition: all .5s;
+    cursor: pointer;
+    transition-timing-function:  cubic-bezier(0, -0.14, 0, 2.16);
+    &:hover{
+        box-shadow: 0 0 15px #ddd;
+        transform: scale(1.1) rotate(90deg);
+        filter: brightness(1.1);
+    }
 }
 
 my-post{
