@@ -1,4 +1,6 @@
-body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #ddd; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: #eeeeee; -ms-flex-wrap: wrap; flex-wrap: wrap; background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg"); background-size: 20px; }
+
+h1 { color: #211d00; }
 
 main { display: -webkit-box; display: -ms-flexbox; display: flex; min-width: 500px; max-width: 700px; margin: 100px; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; border-radius: 50px; -webkit-box-shadow: 0 0 10px #00000015; box-shadow: 0 0 10px #00000015; }
 main > article:nth-child(1) { border-radius: 50px 0 0 50px; background-color: #fff; width: 60%; padding: 50px 50px 50px 50px; }
@@ -10,8 +12,8 @@ main > article:nth-child(1) > form > input::-webkit-input-placeholder { color: #
 main > article:nth-child(1) > form > input:-ms-input-placeholder { color: #ccc; }
 main > article:nth-child(1) > form > input::-ms-input-placeholder { color: #ccc; }
 main > article:nth-child(1) > form > input::placeholder { color: #ccc; }
-main > article:nth-child(1) > form > input[type=submit] { padding: 0; background-color: #6633ff; color: #fff; margin-top: 20px; cursor: pointer; -webkit-transition: all .4s; transition: all .4s; letter-spacing: 2px; font-size: 15px; }
-main > article:nth-child(1) > form > input[type=submit]:hover { background-color: #404EEE; letter-spacing: 10px; }
+main > article:nth-child(1) > form > input[type=submit] { padding: 0; background-color: #ecde60; color: #fff; margin-top: 20px; cursor: pointer; -webkit-transition: all .4s; transition: all .4s; letter-spacing: 2px; font-size: 15px; }
+main > article:nth-child(1) > form > input[type=submit]:hover { background-color: #d8cc5c; letter-spacing: 10px; }
 main > article:nth-child(2) { background-color: #fefefe; border-radius: 0 50px 50px 0; width: 40%; border-left: solid 1px #dddddd39; background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg"); background-size: 20px; }
 
 /*# sourceMappingURL=sign_up.css.map */

@@ -2,8 +2,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ddd;
+    background-color: #eeeeee;
     flex-wrap: wrap;
+    
+    background-image: url("https://raw.githubusercontent.com/5-23/todo/main/assets/todo_bg.svg");
+    background-size: 20px;  
+}
+h1{
+    color: #211d00
 }
 
 main{
@@ -57,7 +63,7 @@ main{
 
                     &[type=submit]{
                         padding: 0;
-                        background-color: #6633ff;
+                        background-color: #ecde60;
                         color: #fff;
                         margin-top: 20px;
                         cursor: pointer;
@@ -65,7 +71,7 @@ main{
                         letter-spacing: 2px;
                         font-size: 15px;
                         &:hover{
-                            background-color: #404EEE;
+                            background-color: #d8cc5c;
                             letter-spacing: 10px;
                         }
                     }
